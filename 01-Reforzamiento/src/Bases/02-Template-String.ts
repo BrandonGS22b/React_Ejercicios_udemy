@@ -4,4 +4,4 @@ const lastName='Garcia';
 const fullname= `${firstName} ${lastName}`
 
 
-console.log('su nombre completo es:'+{fullname})
+console.log('su nombre completo es:'+fullname)
