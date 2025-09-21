@@ -1,4 +1,17 @@
-const ironman={
+interface Person{
+    firstName: string;
+    lastName:String;
+    age:number;
+    address:Address;
+
+}
+interface Address {
+    postalCode:String;
+    city:String;
+
+}
+
+const ironman: Person={
     firstName:'Brandon',
     lastName:'Garcia',
     age:45,
@@ -8,6 +21,14 @@ const ironman={
 
     }
 };
+/*
+const spiderman:Person={
+    firstName: 'Peter',
+    lastName: 'parket',
+    age: 22
+}
+*/
+/*
 
 const spiderman = structuredClone(ironman);//crea una copia profunda, no comparten memoria. si uso el ... no va ser una copia profunda y no me tomaria lo que esta por dentro del address solo lo externo
 
@@ -18,3 +39,6 @@ spiderman.address.city=('colombia');
 
 
 console.log(ironman,spiderman);
+*/
+
+console.log(ironman);
