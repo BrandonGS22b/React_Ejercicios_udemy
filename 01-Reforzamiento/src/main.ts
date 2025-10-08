@@ -1,5 +1,5 @@
 import './style.css'
-import './data/heroes.data'
+import './Bases/09-import-exp'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
