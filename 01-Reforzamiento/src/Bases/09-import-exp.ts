@@ -26,7 +26,7 @@ console.log(getHeroById(3));
 */
 
 
-const getHeroesByOwner=(owner:Owner):Hero[]=>{
+export const getHeroesByOwner=(owner:Owner):Hero[]=>{
     const heroesByOwner =heroes.filter((hero)=>hero.owner===owner);
 
     return heroesByOwner;
