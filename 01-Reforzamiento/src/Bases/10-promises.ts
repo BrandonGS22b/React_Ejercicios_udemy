@@ -15,4 +15,4 @@ myPromise
   })
   .finally(() => {
     console.log('Pues sa seguir con mi vida');
-  });
+  }); 
